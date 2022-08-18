@@ -1,3 +1,9 @@
+@import 'colors';
+
 .navbar {
-  background: skyblue;
+  background: $navfield;
+  justify-content: space-between;
+  height: 80px;
+  display: flex;
+  padding: 0.5rem calc((100vw - 1200px) / 2);
 }
