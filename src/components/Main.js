@@ -1,20 +1,19 @@
 import React from 'react';
-import { MapContainer, TileLayer, useMap } from 'react-leaflet'
+import styles from '../styles/main_styles.module.css'
+import Map from './Map'
 
 
 function Main() {
-  
+  // var map = L.map('map').setView([51.505, -0.09], 13);
+  // const Racepoint = [42.081711900361285, -70.21996049212946];
+  // const Dog = [32.7569118686108, -117.25123654572101];
+  // const Christian = [30.316818982336372, -89.23717045335731];
+  // const Coronado = [32.68571222174214, -117.18794016223605];
+  // const Destin = [30.38452671257426, -86.48682095459576];
 
   return (
     <div className="main">
-      <MapContainer center={[45.4, -75.7]} zoom={12}scrollWheelZoom={false}>
-      <TileLayer
-    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-      />
-    </MapContainer>
-
-     
+     <Map />
       
 
     </div>

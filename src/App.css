@@ -2,15 +2,15 @@
   display: flex;
   flex-direction: column;
   /* align-items: center; */
+  justify-content: space-between;
   height: 100vh;
 }
 .leaflet-container {
-  position: absolute;
 
-  width: 50%;
+  width:  50vw;
   height: 50vh;
 }
 
-/* #MapContainer {
-  border: 5px solid red;
+/* #map {
+    height: 200px;
 } */
